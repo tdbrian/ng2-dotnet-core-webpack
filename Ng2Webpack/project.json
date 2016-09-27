@@ -1,12 +1,12 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.2",
   "title": "NG2 Webpack",
   "description": "Angular2 (NG2) Webpack middleware for painlessly using Webpack bundling in an ASP.NET Core applications.",
   "language": "en-US",
   "authors": [ "Thomas Brian" ],
 
   "packOptions": {
-    "tags": [ "webpack", "webpack-dev-server", "module-bundling" ],
+    "tags": [ "webpack", "angular", "angular2", "NG2", "NG", "ES6", "ES2015", "bundling", "webpack-dev-server", "module-bundling" ],
     "projectUrl": "https://github.com/tdbrian/ng2-dotnet-core-webpack",
     "repository": {
       "type": "git",
@@ -18,14 +18,19 @@
   },
 
   "dependencies": {
-    "Microsoft.AspNetCore.Hosting.Abstractions": "1.0.0",
-    "NETStandard.Library": "1.6.0",
-    "System.Diagnostics.Process": "4.1.0"
+    "Microsoft.AspNetCore.Hosting.Abstractions": "1.0.0"
   },
 
   "frameworks": {
+    "net451": {},
     "netstandard1.6": {
-      "imports": "dnxcore50"
+      "System.Diagnostics.Process": "4.1.0",
+      "System.IO.FileSystem": "4.0.1",
+      "Microsoft.Win32.Primitives": "4.0.1",
+      "dependencies": {
+        "System.Diagnostics.Process": "4.1.0",
+        "System.IO.FileSystem": "4.0.1"
+      }
     }
   }
 }
