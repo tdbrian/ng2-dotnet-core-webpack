@@ -3,7 +3,7 @@
   "title": "NG2 Webpack",
   "description": "Angular2 (NG2) Webpack middleware for painlessly using Webpack bundling in an ASP.NET Core applications.",
   "language": "en-US",
-  "authors": [ "Thomas Brian", "Charalampos Karypidis" ],
+  "authors": [ "Thomas Brian" ],
 
   "packOptions": {
     "tags": [ "webpack", "webpack-dev-server", "module-bundling" ],
@@ -13,7 +13,7 @@
       "url": "https://github.com/tdbrian/ng2-dotnet-core-webpack"
     },
     "licenseUrl": "https://opensource.org/licenses/MIT",
-    "iconUrl": "http://webpack.github.io/assets/favicon.png",
+    "iconUrl": "https://tdbrian.github.io/ng2-dotnet-core-webpack/images/ng2-webpack-icon.png",
     "owners": [ "Thomas Brian" ]
   },
 
